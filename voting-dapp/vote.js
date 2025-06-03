@@ -1,4 +1,6 @@
 // vote.js
+console.log("Using RPC:", process.env.SEPOLIA_RPC_URL);
+
 import { JsonRpcProvider, Wallet, Contract } from 'ethers';
 import dotenv from 'dotenv';
 dotenv.config();
