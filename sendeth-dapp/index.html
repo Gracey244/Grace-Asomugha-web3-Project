@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SendETH DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>SendETH DApp</h1>
+
+  <!-- Wallet connection -->
+  <button id="connectBtn">Connect Wallet</button>
+  <p id="account">Account: Not connected</p>
+  <p id="balance">Balance: 0 ETH</p>
+
+  <!-- ETH sending form -->
+  <div id="sendEthForm">
+    <h2>Send ETH</h2>
+    <input type="text" id="recipient" placeholder="Recipient address" />
+    <input type="number" id="amount" placeholder="Amount in ETH" />
+    <button id="sendBtn">Send ETH</button>
+  </div>
+
+  <!-- Voting section -->
+  <div id="votingSection">
+    <h2>Vote for a Proposal</h2>
+    <button id="vote1Btn">Vote for Proposal 1</button>
+    <button id="vote2Btn">Vote for Proposal 2</button>
+  </div>
+
+  <!-- Load ethers.js v6 (UMD build for browser) -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.9.0/dist/ethers.umd.min.js"></script>
+
+  <!-- Load your custom app logic -->
+  <script src="app.js"></script>
+  <script src="vote.js"></script>
+</body>
+</html>

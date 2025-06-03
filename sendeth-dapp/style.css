@@ -1,0 +1,64 @@
+/* Reset & Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+/* Buttons */
+button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Form container */
+#sendEthForm {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 500px;
+  background-color: #fff;
+}
+
+/* Voting section */
+#vote1Btn, #vote2Btn {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+/* Status text */
+#account, #balance {
+  font-weight: bold;
+  margin-top: 1rem;
+}
